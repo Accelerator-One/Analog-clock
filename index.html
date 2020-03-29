@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="apple-touch-icon" sizes="76x76" href="https://svgsilh.com/svg/153974-ffc107.svg">
+  <link rel="icon" type="image/png" href="https://svgsilh.com/svg/153974-ffc107.svg">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+
+  <title> Redirecting... </title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+            
+  <style>
+ 
+	#_mm-preloader
+	{
+        background: lightcyan;
+        box-shadow: 0 0 100px violet;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        width: 80px;
+        height: 80px;
+        z-index: 300;
+        border-radius: 50%;
+ 
+    }
+
+    #_mm-preloader > #_mm-indicator
+	{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 70%;
+        border: 8px solid turquoise;
+        border-right-color: red;
+      border-top-color: green;
+      border-left-color: yellow;
+      border-bottom-color: dodgerblue;
+      
+        border-radius: 50%;
+        animation: 2.0s linear mm-spin infinite;
+    }
+
+    @keyframes mm-spin {
+        from {transform: translate(-50%, -50%) rotateZ(0deg);}
+        to {transform: translate(-50%, -50%) rotateZ(360deg);}
+    }
+  
+  </style>
+</head>
+<body style="background-color:#f5f5ef">
+
+<div id="_mm-preloader">
+    <div id="_mm-indicator"></div>
+</div>
+
+  <script>
+	$(document).ready(function(){
+		setTimeout(function(){
+			window.location.replace("./public/index.html");
+		},2500)
+	});
+  </script>
+
+</body>
+</html>
