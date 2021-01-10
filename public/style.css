@@ -1,7 +1,7 @@
 /* content panel */
 .container-fluid {
-	height:100vh;
-    overflow:hidden;
+    height: 100vh;
+    overflow: hidden;
     background-image: url("img/back.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -12,54 +12,54 @@
 
 /* Common properties to hands of clock */
 .common {
-	 position:relative;
-     transition: transform 0.5s linear;
-     transform: rotate(0deg);
-     transform-origin: bottom center;
-     border-radius:2px;
-     transform-style: preserve-3D;
-     box-shadow: 0 0 0.5px 0.5px transparent;
-     overflow: hidden;
+    position: relative;
+    transition: transform 0.5s linear;
+    transform: rotate(0deg);
+    transform-origin: bottom center;
+    border-radius: 2px;
+    transform-style: preserve-3D;
+    box-shadow: 0 0 0.5px 0.5px transparent;
+    overflow: hidden;
 }
 
 /* Pivot - Axis */
 .axis {
-	width : 32px;
-    height : 32px;
-    background-color : white;
-    border-radius:50%;
-    border : 4px solid #f6931e;
-    position:relative;
-    z-index:1050 !important;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid #f6931e;
+    position: relative;
+    z-index: 1050 !important;
 }
 
 /* Upper Pivot */
 .up {
-	bottom:32px;
+    bottom: 32px;
 }
 
 /* Hour hand */
 .first {
-   width : 16px;
-   height: 80px;
-   bottom : 68px;
-   transform: rotate(0deg);
-   background-color :#f6931e;
+    width: 16px;
+    height: 80px;
+    bottom: 68px;
+    transform: rotate(0deg);
+    background-color: #f6931e;
 }
 
 /* Minute hand */
 .second {
-	width : 8px;
+    width: 8px;
     height: 120px;
-    bottom : 188px;    
-    background-color : #f6931e;
-    
-} 
+    bottom: 188px;
+    background-color: #f6931e;
+
+}
 
 /* Second hand */
 .third {
-	width : 4px;
+    width: 4px;
     height: 160px;
-    bottom : 348px;
-    background-color : blueviolet;
+    bottom: 348px;
+    background-color: blueviolet;
 }
