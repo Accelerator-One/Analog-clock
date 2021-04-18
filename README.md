@@ -1,10 +1,10 @@
 ## Analog clock ( Javascript )
-Simple implementation of an analog clock developed for the web
+Simple implementation of analog clock written for web
 
 <br/>
 
-### Live Demo
-https://accelerator-one.github.io/analog-clock/public/index.html
+### Live demo
+https://accelerator-one.github.io/analog-clock-javascript/public/index.html
 
 <br/>
 
