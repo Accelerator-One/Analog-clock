@@ -1,8 +1,12 @@
-# analog-clock
-Simple implementation of an analog clock developed for web
+## Analog clock ( Javascript )
+Simple implementation of an analog clock developed for the web
 
-# Demo
-https://accelerator-one.github.io/analog-clock/
+<br/>
 
-# Screenshot
-![Analog Clock](./screenshot.png)
+### Live Demo
+https://accelerator-one.github.io/analog-clock/public/index.html
+
+<br/>
+
+### Screenshot
+![Analog clock](Screenshot.png)
